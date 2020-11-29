@@ -1,0 +1,68 @@
+.selection {
+    min-height: 720px;
+    position: relative;
+    background: url('../../img/bg.jpg') center (center/cover) no-repeat;
+    &__header {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+        letter-spacing: 1.75px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .carousel {
+        margin-top: 135px;
+        padding-left: 169px;
+        max-width: 1003px;
+        &__inner {
+            position: relative;
+            margin: 0 auto;
+            img {
+                margin: 0 auto;
+            }
+            .slick-prev, .slick-next {
+                border: none;
+                background-color: rgba($color: #000000, $alpha: 1.0);
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -66px;
+                img {
+                    width: 53px;
+                    height: 53px;
+                }
+            }
+            .slick-next {
+                left: auto;
+                right: -66px;
+            }
+            .header-carousel {
+                margin-top: 13px;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1.9px;
+                color: rgba(255, 255, 255, 0.5);
+                text-transform: uppercase;
+                text-align: center;
+            }
+            .descr-carousel {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 1.5;
+                color: rgba(255, 255, 255, 0.5);
+                margin-top: 20px;
+                text-align: center;
+                display: none;  
+            }
+            .slick-center {
+                .header-carousel {
+                    color: #ffffff;
+                }
+                .descr-carousel {
+                    display: block;
+                    color: #ffffff;
+                }
+            }
+        }  
+    }
+}

@@ -1,0 +1,55 @@
+.button-hire {
+    top: 410px;
+    position: absolute;
+    width: 90px;
+    height: 31px;
+    background-color: #0f33ff;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    color: #ffffff;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 10px;
+    div {
+        position: absolute;
+        width: 101px;
+        display: flex;
+        justify-content: space-between;
+        right: 0;
+        top: 6px;
+        img {
+            width: 18px;
+            height: 20px;
+        } 
+    }
+    &_second {
+        top: 611px;
+    }
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 31px;
+    background-color: #0f33ff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    color: #ffffff;
+    border:none;
+    text-transform: uppercase;
+}
+.button-footer {
+    width: 401px;
+    height: 52px;
+    background-color: #0f33ff;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 62px auto 0 auto;
+}

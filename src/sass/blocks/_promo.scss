@@ -1,0 +1,57 @@
+.promo {
+    background: url('../../img/bg.jpg') center (center/cover) no-repeat;
+    min-height: 720px;
+    position: relative;
+    &__wrapper {
+        padding-left: 125px;
+    }
+    &__liner {
+        width: 928px;
+        height: 2px;
+        background-color: rgba($color: #ffffff, $alpha: 0.05)
+    }
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    }
+    .header-main {
+        margin-top: 86px;
+        width: 429px;
+        font-size: 82px;
+        font-weight: 900;
+        line-height: 0.88;
+        letter-spacing: 2.05px;
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+.descr {
+    display: flex;
+    justify-content: space-between;
+    &__tabs {
+        width: 243px;
+        color: #ffffff;
+        .descr-box {
+            width: 30px;
+            height: 6px;
+            background-color: #0f33ff;
+        }
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.9px;
+        text-transform: uppercase;
+        line-height: 18px;
+        margin-top: 29px;
+        &:first-child {
+            margin-top: 35px;
+        }
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-top: 27px;
+    }    
+}

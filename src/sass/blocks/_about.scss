@@ -1,0 +1,36 @@
+.about {
+    background: url('../../img/bg.jpg') center (center/cover) no-repeat;
+    min-height: 720px;
+    position: relative;
+    &__wrapper {
+        padding-left: 125px;
+    }
+    .links__wrapper {
+        display: flex;
+        justify-self: start;
+        position: absolute;
+        bottom: 8px;
+        .link {
+            margin-right: 31px;
+            cursor: pointer;
+            &__descr {
+                position: absolute;
+                bottom: -13px;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 1.7px;
+                color: #ffffff;
+                text-transform: uppercase;
+                &_one {
+                    left: 20px;
+                }
+                &_two {
+                    left: 220px;
+                }
+                &_three {
+                    left: 420px;
+                }
+            }
+        }
+    }
+}

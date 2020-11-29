@@ -1,0 +1,26 @@
+.footer {
+    background: url('../../img/bg.jpg') center (center/cover) no-repeat;
+    min-height: 720px;
+    position: relative;
+    .footer-buttons__wrapper {
+        padding-left: 125px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .footer-button {
+            width: 250px;
+            height: 56px;
+            border: solid 2px #ffffff;
+            background-color: #000000;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 1.9px;
+            color: #ffffff;
+            margin-top: 45px;
+            &_active {
+                background-color: #0f33ff;
+                border: none;
+            }
+        }
+    }
+}

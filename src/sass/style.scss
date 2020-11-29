@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+
+* {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/selection';
+@import 'blocks/about';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/forms';
+@import 'blocks/modal';
+@import 'blocks/navigation';
+@import 'base/animation';

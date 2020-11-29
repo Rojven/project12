@@ -1,0 +1,39 @@
+.navigation {
+    position: absolute;
+    top: 165px;
+    z-index: 5;
+    &_map {
+        a {
+            margin-bottom: 0;
+        }
+    }
+    &_static {
+        top: 149px;
+    }
+    &_about {
+        top: 259px;
+    }
+    &__figer {
+        color: #ffffff;
+        font-size: 70px;
+        font-weight: 900;
+        text-align: right;
+        line-height: 57px;
+    }
+    &__link {
+        color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 0px;
+    }
+    img {
+        width: 70px;
+        height: 70px;
+        &:hover {
+            animation-name: up;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+    }
+}

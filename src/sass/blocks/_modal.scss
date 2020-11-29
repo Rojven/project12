@@ -1,0 +1,60 @@
+.overlay {
+position: fixed;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.924);
+display: none;
+z-index: 6;
+}
+.modal {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 460px;
+min-height: 400px;
+z-index: 7;
+&__close {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    color: #0f33ff;
+    font-size: 75px;
+    line-height: 21px;
+    cursor: pointer;
+}
+&__subtitle {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+&__descr {
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+}
+&_mini {
+    min-height: 150px;
+}
+.feed-form_vert {
+    margin: 30px 0;
+    .button_submit {
+        width: 330px;
+        height: 52px;
+        background-color: #0f33ff;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.9px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 62px auto 0 auto;
+    }
+}
+}
+#question, #thanks {
+    display: none;
+}
